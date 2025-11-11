@@ -1,7 +1,7 @@
 context:
   name: scippnexus
   version: "25.11.0"
-  python_min: "3.10"
+  python_min: "3.11"
 
 package:
   name: ${{ name }}
@@ -26,8 +26,8 @@ requirements:
     - python >=${{ python_min }}
     - python-dateutil
     - scipp >=24.02.0
-    - scipy
-    - h5py
+    - scipy >=1.10.0
+    - h5py >=3.12
 
 tests:
   - python:
