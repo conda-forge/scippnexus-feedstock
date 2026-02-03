@@ -1,6 +1,6 @@
 context:
   name: scippnexus
-  version: "26.1.0"
+  version: "26.1.1"
   python_min: "3.11"
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/scippnexus-${{ version }}.tar.gz
-  sha256: c00ee8d35440e950c99dd9f4fa4d475b1d1c31f2f58fe87a49e837cf69ae2842
+  sha256: 6c98381110b16b3e6b67e925e46b56369145d748ca60956bc04e5c7664f27601
 
 build:
   number: 0
